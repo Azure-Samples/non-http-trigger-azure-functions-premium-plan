@@ -5,9 +5,9 @@ platforms: dotnet-core, aspnet-core
 
 # Azure Functions, Private Endpoints, and NAT Gateway
 
-![Build .NET Core](https://github.com/paolosalvatori/azure-function-premium-plan/workflows/.NET%20Core/badge.svg)
+![Build .NET Core](https://github.com/Azure-Samples/non-http-trigger-azure-functions-premium-plan/workflows/.NET%20Core/badge.svg)
 
-This sample shows how to use [Azure Private Endpoints](https://docs.microsoft.com/azure/private-link/private-endpoint-overview) and [NAT Gateway](https://docs.microsoft.com/en-us/azure/virtual-network/nat-gateway-resource) from an Azure Functions app deployed to an [Azure Functions Premium Plan](https://docs.microsoft.com/en-us/azure/azure-functions/functions-premium-plan?tabs=portal) with [Regional VNET Integration](https://docs.microsoft.com/en-us/azure/app-service/web-sites-integrate-with-vnet#regional-vnet-integration). For a similar sample with an HTTP-triggered Azure Function, see [Call an HTTP Azure Function using a Private Endpoint](https://github.com/paolosalvatori/azure-functions-private-endpoint-http-trigger).
+This sample shows how to use [Azure Private Endpoints](https://docs.microsoft.com/azure/private-link/private-endpoint-overview) and [NAT Gateway](https://docs.microsoft.com/en-us/azure/virtual-network/nat-gateway-resource) from an Azure Functions app deployed to an [Azure Functions Premium Plan](https://docs.microsoft.com/en-us/azure/azure-functions/functions-premium-plan?tabs=portal) with [Regional VNET Integration](https://docs.microsoft.com/en-us/azure/app-service/web-sites-integrate-with-vnet#regional-vnet-integration). For a similar sample with an HTTP-triggered Azure Function, see [Call an HTTP-triggered Azure Function using a Private Endpoint](https://github.com/Azure-Samples/http-trigger-azure-function-premium-plan).
 
 ## Deploy to Azure
 
