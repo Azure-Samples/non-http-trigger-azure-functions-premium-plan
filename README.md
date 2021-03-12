@@ -1,6 +1,29 @@
 ---
-services: azure, azure-functions, azure-storage, azure-blob-storage, azure-service-bus-messaging, azure-application-insights, azure-bastion, azure-cosmos-db, azure-dns, app-service, azure-monitor, service-bus-messaging, storage, virtual-network, azure-private-link, azure-resource-manager,  azure-virtual-machines-windows, azure-virtual-network, dotnet-core, vs-code
-platforms: dotnet-core, aspnet-core
+page_type: sample
+languages:
+- aspx-csharp
+products:
+- azure
+- dotnet-core
+- azure-storage
+- azure-blob-storage
+- azure-storage-accounts
+- azure-bastion
+- azure-application-insights
+- azure-dns
+- azure-private-link
+- azure-service-bus
+- azure-virtual-network
+- azure-resource-manager
+- azure-cosmos-db
+- azure-functions
+- azure-log-analytics
+- azure-virtual-machines
+- vs-code
+name: "Azure Functions, Private Endpoints, and NAT Gateway"
+description: "This sample shows how to use Azure Private Endpoints and NAT Gateway from a Service Bus triggered Azure Function deployed to an Azure Functions Premium Plan with Regional VNET Integration."
+urlFragment: "non-http-trigger-azure-functions-premium-plan"
+azureDeploy: "https://raw.githubusercontent.com/Azure-Samples/non-http-trigger-azure-functions-premium-plan/main/templates/azuredeploy.json"
 ---
 
 # Azure Functions, Private Endpoints, and NAT Gateway
