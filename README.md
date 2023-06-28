@@ -4,7 +4,6 @@ languages:
 - aspx-csharp
 products:
 - azure
-- dotnet-core
 - azure-storage
 - azure-blob-storage
 - azure-storage-accounts
